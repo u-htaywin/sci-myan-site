@@ -1,0 +1,48 @@
+{
+    "title": "CodeIgniter\\Exceptions\\PageNotFoundException",
+    "type": "CodeIgniter\\Exceptions\\PageNotFoundException",
+    "code": 404,
+    "message": "Controller or its method is not found: \\App\\Controllers\\Vendor::vendor",
+    "file": "C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\system\\CodeIgniter.php",
+    "line": 952,
+    "trace": [
+        {
+            "file": "C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\system\\CodeIgniter.php",
+            "line": 952,
+            "function": "forPageNotFound",
+            "class": "CodeIgniter\\Exceptions\\PageNotFoundException",
+            "type": "::",
+            "args": [
+                "Controller or its method is not found: \\App\\Controllers\\Vendor::vendor"
+            ]
+        },
+        {
+            "file": "C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\system\\CodeIgniter.php",
+            "line": 363,
+            "function": "display404errors",
+            "class": "CodeIgniter\\CodeIgniter",
+            "type": "->",
+            "args": [
+                {
+                    "xdebug_message": "<tr><th align='left' bgcolor='#f57900' colspan=\"5\"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> CodeIgniter\\Exceptions\\PageNotFoundException: Controller or its method is not found: \\App\\Controllers\\Vendor::vendor in C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\system\\CodeIgniter.php on line <i>847</i></th></tr>\n<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>\n<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>\n<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0002</td><td bgcolor='#eeeeec' align='right'>362696</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\\wamp64\\www\\my_blog_same_as_online\\index.php' bgcolor='#eeeeec'>...\\index.php<b>:</b>0</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>363112</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\public\\index.php</font> )</td><td title='C:\\wamp64\\www\\my_blog_same_as_online\\index.php' bgcolor='#eeeeec'>...\\index.php<b>:</b>3</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0189</td><td bgcolor='#eeeeec' align='right'>700360</td><td bgcolor='#eeeeec'>CodeIgniter\\CodeIgniter->run( <span>$routes = </span>???, <span>$returnResponse = </span>??? )</td><td title='C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\public\\index.php' bgcolor='#eeeeec'>...\\index.php<b>:</b>55</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0264</td><td bgcolor='#eeeeec' align='right'>766952</td><td bgcolor='#eeeeec'>CodeIgniter\\CodeIgniter->handleRequest( <span>$routes = </span><span>NULL</span>, <span>$cacheConfig = </span><span>class Config\\Cache { public $handler = &#39;file&#39;; public $backupHandler = &#39;dummy&#39;; public $storePath = &#39;C:\\\\wamp64\\\\www\\\\my_blog_same_as_online\\\\ci-news\\\\writable\\\\cache/&#39;; public $cacheQueryString = FALSE; public $prefix = &#39;&#39;; public $ttl = 60; public $reservedCharacters = &#39;{}()/\\\\@:&#39;; public $file = [&#39;storePath&#39; =&gt; &#39;C:\\\\wamp64\\\\www\\\\my_blog_same_as_online\\\\ci-news\\\\writable\\\\cache/&#39;, &#39;mode&#39; =&gt; 416]; public $memcached = [&#39;host&#39; =&gt; &#39;127.0.0.1&#39;, &#39;port&#39; =&gt; 11211, &#39;weight&#39; =&gt; 1, &#39;raw&#39; =&gt; FALSE]; public $redis = [&#39;host&#39; =&gt; &#39;127.0.0.1&#39;, &#39;password&#39; =&gt; NULL, &#39;port&#39; =&gt; 6379, &#39;timeout&#39; =&gt; 0, &#39;database&#39; =&gt; 0]; public $validHandlers = [&#39;dummy&#39; =&gt; &#39;CodeIgniter\\\\Cache\\\\Handlers\\\\DummyHandler&#39;, &#39;file&#39; =&gt; &#39;CodeIgniter\\\\Cache\\\\Handlers\\\\FileHandler&#39;, &#39;memcached&#39; =&gt; &#39;CodeIgniter\\\\Cache\\\\Handlers\\\\MemcachedHandler&#39;, &#39;predis&#39; =&gt; &#39;CodeIgniter\\\\Cache\\\\Handlers\\\\PredisHandler&#39;, &#39;redis&#39; =&gt; &#39;CodeIgniter\\\\Cache\\\\Handlers\\\\RedisHandler&#39;, &#39;wincache&#39; =&gt; &#39;CodeIgniter\\\\Cache\\\\Handlers\\\\WincacheHandler&#39;] }</span>, <span>$returnResponse = </span><span>FALSE</span> )</td><td title='C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\system\\CodeIgniter.php' bgcolor='#eeeeec'>...\\CodeIgniter.php<b>:</b>349</td></tr>\n<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0319</td><td bgcolor='#eeeeec' align='right'>880776</td><td bgcolor='#eeeeec'>CodeIgniter\\CodeIgniter->startController(  )</td><td title='C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\system\\CodeIgniter.php' bgcolor='#eeeeec'>...\\CodeIgniter.php<b>:</b>453</td></tr>\n"
+                }
+            ]
+        },
+        {
+            "file": "C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\public\\index.php",
+            "line": 55,
+            "function": "run",
+            "class": "CodeIgniter\\CodeIgniter",
+            "type": "->",
+            "args": []
+        },
+        {
+            "file": "C:\\wamp64\\www\\my_blog_same_as_online\\index.php",
+            "line": 3,
+            "args": [
+                "C:\\wamp64\\www\\my_blog_same_as_online\\ci-news\\public\\index.php"
+            ],
+            "function": "require"
+        }
+    ]
+}
