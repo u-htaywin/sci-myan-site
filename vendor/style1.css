@@ -1,0 +1,194 @@
+#wrapper {
+    width:80%;
+    margin:0px auto 0px auto;
+    overflow:hidden;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-bottom:15px;
+    margin-top:10px;
+}
+
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    margin-left:15px;
+}
+
+@font-face {
+    font-family: Zawgyi-One;
+    /*src: url(Padauk-Bold.ttf);*/
+    /*src: url(path/to/Padauk-Regular.ttf);*/
+    /*src: url(Padauk-Regular.ttf);*/
+    src: url(Zawgyi-One.ttf);
+}
+}
+
+h2 {
+    font-size:18px;
+    padding-left: 40px;
+    padding-top: 10px;
+    /*padding-bottom: 20px;*/
+    padding-right: 40px;
+    color: blue;
+}
+
+.article_header{
+    font-size:14px;
+}
+
+.left-column P {
+    margin-bottom:35px;
+}
+
+.clearfix {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card {
+    width: calc(30% - 20px); /* Adjust the desired width based on the number of cards per row */
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    align-items: flex-start; /* Align content to the top */
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000; /* Add border styling */
+    border-radius: 20px; /* Add rounded corners */   
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    word-wrap: break-word;
+}
+
+.card img {
+    max-width: 90%; /* Ensure the image doesn't exceed the width of the parent container */
+    max-height: 300px;
+    height: auto; /* Allow the height to adjust automatically while maintaining aspect ratio */
+}
+
+.banner{
+    display: none;
+} 
+
+@media (max-width: 1200px) {
+    .card {
+        : calc(50% - 20px);
+        float: left;
+    }
+    #wrapper{
+        width:100%;
+        border-radius: 0px;
+    }
+    .header{        
+        padding-top:0px;
+        padding-bottom:0px;
+    }    
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: calc(100% - 20px);
+    }
+    .header {
+        display: none;
+    }
+    #wrapper{
+        width:100%;
+        border-radius: 0px;
+    }
+    .banner{
+        display: block;
+    }
+    main{
+          flex-direction: column;
+    }
+    .left-column, .right-column {
+        flex: auto;
+    } 
+    h2 {
+        font-size:12px;
+    }
+    .clearfix {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+}
+
+.header {
+    background-image: url("vendor/header1.html");
+    background-color: #E9EAEC;
+    color: #fff;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-size:24px;
+    text-align: center;
+    clear: both;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+ 
+.page-navigation {
+    /*background-color: green;*/
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+/* this is for single page */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  /* set main styles */
+  
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* set left column styles */
+.left-column {
+    flex: 7;
+    padding: 20px;
+    /*background-color: #05f2f2;*/
+}
+
+.left-column img, iframe {
+    max-width: 90%; /* Ensure the image doesn't exceed the width of the parent container */
+    height: auto; /* Allow the height to adjust automatically while maintaining aspect ratio */
+}
+
+/* set right column styles */
+.right-column {
+    flex: 3;
+    padding: 20px;
+    background-color: #E9EAEC;
+}
+
+  /* set media query for smaller screens */
+ /*
+  @media screen and (max-width: 600px) {
+    main {
+      flex-direction: column;
+    }
+    .left-column, .right-column {
+      flex: auto;
+    }        
+  }
+  */
